@@ -1,6 +1,11 @@
 .theBody{
     background-color:lightblue;
 }
+.imageBack{
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 500px;
+}
 .taskBar{
     height: auto;
     padding: 5px;
