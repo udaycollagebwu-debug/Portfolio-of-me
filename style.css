@@ -1,14 +1,11 @@
 .theBody{
     background-color:lightblue;
 }
-<<<<<<< HEAD
 .imageBack{
     background-repeat: no-repeat;
     background-position: right;
     background-size: 500px;
 }
-=======
->>>>>>> origin/main
 .taskBar{
     height: auto;
     padding: 5px;
