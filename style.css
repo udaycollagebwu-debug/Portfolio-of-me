@@ -1,11 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.walpaper{
+    margin: 0 auto;
+    width: 1000px;
+}
 .theBody{
     background-color:lightblue;
 }
 .imageBack{
+    width: 500px;
+    height:600px;
+    background-image: url(imageFolder/Firefly_Gemini_Flash_remove_the_background_._927196-removebg-preview.png);
     background-repeat: no-repeat;
-    background-position: right;
-    background-size: 500px;
+    background-size:cover;
+    /* background-position: center right; */
 }
+.imageBac{
+  display: flex;
+  justify-content: flex-end;
+}
+
 .taskBar{
     height: auto;
     padding: 5px;
