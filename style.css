@@ -2,55 +2,42 @@
     padding: 0;
     margin: 0;
 }
-.walpaper{
-    margin: 0 auto;
-    width: 1000px;
+body{
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
 }
-.theBody{
-    background-color:lightblue;
-}
-.imageBack{
-    width: 500px;
-    height:600px;
-    background-image: url(imageFolder/Firefly_Gemini_Flash_remove_the_background_._927196-removebg-preview.png);
-    background-repeat: no-repeat;
-    background-size:cover;
-    /* background-position: center right; */
-}
-.imageBac{
-  display: flex;
-  justify-content: flex-end;
+.taskbar{
+    background-color: azure;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 3px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.taskBar{
-    height: auto;
+div{
     padding: 5px;
-    background-color: rgb(22, 143, 249);
-    border-radius: 5px;
-    align-items:center;
-    justify-content: left;
-    display: flex;
-    margin: 10px; 
+    transition: 0.3s;
 }
-.buttonAboutMe{
-    padding: 2px;
-    margin: 1px;
-    background-color: rgb(76, 218, 213);
-    border-radius: 5px;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: large;
+
+div a{
+    text-decoration: none;
 }
-.buttonProject{
-    padding: 2px;
-    background-color: rgb(76, 218, 213);
-    border-radius: 5px;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: large;
+.aboutme :hover{
+    background-color:rgba(11, 255, 247, 0.17);
+    border-radius: 20px;
+    padding: 5px;
 }
-.buttonAllSite{
-    padding: 2px;
-    background-color: rgb(76, 218, 213);
-    border-radius: 5px;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: large;
+.site :hover{
+    background-color:rgba(11, 255, 247, 0.105);
+    border-radius: 20px;
+    padding: 5px;
+}
+.project :hover{
+    background-color:rgba(11, 255, 247, 0.129);
+    border-radius: 20px;
+    padding: 5px;
 }
