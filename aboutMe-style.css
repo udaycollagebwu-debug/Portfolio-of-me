@@ -1,28 +1,8 @@
-body {
-    height: 100%;
-    min-width: 100vh;
+*{
+    padding: 0;
+    margin: 0;
 }
 
-.backimage {
-    height: 100%;
-}
-
-.aboutMe-background-img {
-    width: 100%;
-
-}
-
-.meDP {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
-}
-.meDP-img{
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 150px;
-    height: auto;
-    border-radius: 50%;
-    object-fit: cover;
+body{
+    background-color: rgb(255, 238, 213);
 }
