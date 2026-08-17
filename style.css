@@ -2,20 +2,24 @@
     padding: 0;
     margin: 0;
 }
-body{
-    background-color: antiquewhite;
-    display: flex;
-    align-items: center;
+.walpaper{
+    margin: 0 auto;
+    width: 1000px;
 }
-.taskbar{
-    background-color: azure;
-    border-radius: 10px;
-    margin: 10px;
-    padding: 3px;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.theBody{
+    background-color:lightblue;
+}
+.imageBack{
+    width: 500px;
+    height:600px;
+    background-image: url(imageFolder/Firefly_Gemini_Flash_remove_the_background_._927196-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    /* background-position: center right; */
+}
+.imageBac{
+  display: flex;
+  justify-content: flex-end;
 }
 
 div{
