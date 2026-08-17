@@ -1,27 +1,17 @@
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
-.walpaper{
-    margin: 0 auto;
-    width: 1000px;
+body{
+    background-color: antiquewhite;
 }
-.theBody{
-    background-color:lightblue;
+.taskbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 232, 127);
+    margin: 3px;
+    border-radius: 17px;
 }
-.imageBack{
-    width: 500px;
-    height:600px;
-    background-image: url(imageFolder/Firefly_Gemini_Flash_remove_the_background_._927196-removebg-preview.png);
-    background-repeat: no-repeat;
-    background-size:cover;
-    /* background-position: center right; */
-}
-.imageBac{
-  display: flex;
-  justify-content: flex-end;
-}
-
 div{
     padding: 5px;
     transition: 0.3s;
@@ -31,17 +21,17 @@ div a{
     text-decoration: none;
 }
 .aboutme :hover{
-    background-color:rgba(11, 255, 247, 0.17);
+    background-color:rgba(90, 246, 240, 0.573);
     border-radius: 20px;
     padding: 5px;
 }
 .site :hover{
-    background-color:rgba(11, 255, 247, 0.105);
+    background-color:rgba(11, 255, 247, 0.429);
     border-radius: 20px;
     padding: 5px;
 }
 .project :hover{
-    background-color:rgba(11, 255, 247, 0.129);
+    background-color:rgba(108, 252, 247, 0.46);
     border-radius: 20px;
     padding: 5px;
 }
